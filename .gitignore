@@ -1,0 +1,35 @@
+# Prevent sharing ROMs accidentally.
+*.gba
+*.sav
+*.rtc
+
+# Prevent committing compiled object code.
+*.o
+*.2bpp
+*.1bpp
+*.gbcpal
+*.pcm
+*.map
+*.sym
+*.tmap
+*.pyc
+*.ips
+
+# Prevent committing compiled script data.
+*.scripttbl
+*.stringtbl
+*.stringblk
+*.stringidx
+*.sprite.bin
+*.atf
+*.metrics.bin
+
+# Prevent committing build files.
+dependencies.d
+
+# Prevent committing filesystem flotsam.
+.DS_Store
+
+# Prevent committing literally any build products.
+build
+baseroms
